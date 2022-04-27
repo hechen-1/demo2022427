@@ -1,0 +1,78 @@
+/* 合优首页样式 */
+
+/* logo样式开始 */
+#logo{
+    width: 1330px;
+    height: 102px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+.icon{
+    float: left;
+    margin-top: 18px;
+    padding-right: 20px;
+    background: url(../img/shuxian.jpg) no-repeat right center;
+}
+.icon img{
+    text-align: center;
+}
+.word1{
+    padding:0 20px;
+    float: left;
+    margin-top: 28px;
+}
+.word2{
+    float: left;
+    margin-top:28px ;
+}
+#logo div i{
+    padding-left: 10px;
+}
+#logo div i span{
+    color: red;
+    font-size: 21px;
+    font-family: "微软雅黑";
+}
+.phone{
+    float: right;
+    margin-top:20px ;
+}
+/* logo样式结束 */
+
+/* 导航样式开始 */
+#nav{
+    width: 1330px;
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: #2b78d9;
+}
+#nav li a{
+    display: block;
+    width: 164px;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+.active{
+    background-color: #145bb5;
+}
+#nav li:hover{
+    background-color: #145bb5;
+}
+/* 导航样式结束 */
+
+/* banner样式开始 */
+#banner{
+    width: 1330px;
+    height: 448px;
+    margin: 0 auto;
+}
+/* banner样式结束 */
+

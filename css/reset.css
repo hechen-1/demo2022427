@@ -1,0 +1,32 @@
+html,body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,
+legend,input,textarea,select,figure,figcaption,img{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-size: 100%;
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+.clerfix{*zoom:1;}
+.clearfix{
+    content:' ';
+    display:block;
+    clear:both;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+input{outline: none;}
