@@ -20,7 +20,7 @@ img{
     vertical-align: middle;
     border: 0;
 }
-.clerfix{*zoom:1;}
+/* .clerfix{*zoom:1;} */
 .clearfix{
     content:' ';
     display:block;
